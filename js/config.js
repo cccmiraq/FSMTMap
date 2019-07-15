@@ -1,7 +1,7 @@
 var config = {
 		
 		//URL of the CSV
-		url : "https://ckanviz.swige.unhcr.org/dataset/4506c0af-4a8f-4d01-83a6-8b21f8041084/resource/1b25ff21-4d92-492b-9fc9-01a608f841d6/download/fsmt_sites.csv",
+		url : "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/05af8930-d7fd-4d48-a552-2b48bef54fdc/download/dcccm-clustercccm-cluster-reporting-toolsfsmt-may-2019fsmt-master-1fsmt-masterdatafsmt_sites.csv",
 		
 		//Latitude field
 		lat : "coordinates_latitude",
