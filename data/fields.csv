@@ -132,7 +132,7 @@ livelihoods/Items not available at market,Items not available at market,list,liv
 livelihoodd/primary_livelihood_sources,Primary Livelihood Sources,list,livelihood,,,
 livelihoods/how_many_earn_income_last_30_days,Number of individuals with income in last 30 days,integer,livelihood,,,
 livelihoods/young_people(under_18)_work_in_last_30_days,Number of children(under 18) working in last 30 days,integer,livelihood,,,
-PROTECTION,Protection,string,who_what,yesgreen,,
+PROTECTION,Protection,string,who_what,nonered,,
 GBV,GBV,string,who_what,nonered,,
 CHILD_PROTECTION,Child Protection,string,who_what,nonered,,
 EDUCATION,Education,string,who_what,nonered,,
