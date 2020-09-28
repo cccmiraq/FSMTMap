@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	$('#left_of_map').hide();
 	$('#analysis').hide();
 
-	var u = "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/05af8930-d7fd-4d48-a552-2b48bef54fdc/download/dcccm-clustercccm-cluster-reporting-toolsfsmt-may-2019fsmt-master-1fsmt-masterdatafsmt_sites.csv";
+	var u = "https://github.com/cccmiraq/FSMTTest1/master/data/fsmt_sites.csv";
 	var map, loc, name;
 	d3.csv(u, function(data) {
 		d3.csv("data/fields.csv", function(fields) {
