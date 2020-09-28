@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	$('#left_of_map').hide();
 	$('#analysis').hide();
 
-	var u = "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/5f6f7843-9e2d-447d-a8c7-aaac279e90a2/download/fsmt_sites.csv";
+	var u = "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/5f6f7843-9e2d-447d-a8c7-aaac279e90a2/download/dcccm-clustercccm-cluster-reporting-toolsfsmt-may-2019fsmt-master-1fsmt-masterdatafsmt_sites.csv";
 	var map, loc, name;
 	d3.csv(u, function(data) {
 		d3.csv("data/fields.csv", function(fields) {
