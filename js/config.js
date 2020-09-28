@@ -1,7 +1,7 @@
 var config = {
 		
 		//URL of the CSV
-		url : "https://www.dropbox.com/s/hiyo07pniac8hkf/fsmt_sites.csv?dl=0",
+		url : "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/5f6f7843-9e2d-447d-a8c7-aaac279e90a2/download/fsmt_sites.csv",
 		
 		//Latitude field
 		lat : "coordinates_latitude",
@@ -114,7 +114,7 @@ var config = {
 							backgroundColor: '#4095cd',
 							data:[]
 						}],
-						labels: ["60+", "18-59", "5-17", "0-4"],
+						labels: ["60+", "31-59", "18-30", "12-17", "6-11", "3-5", "0-2"],
 
 					},
 					options: {
