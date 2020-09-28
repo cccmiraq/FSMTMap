@@ -1,7 +1,7 @@
 var config = {
 		
 		//URL of the CSV
-		url : "https://github.com/cccmiraq/FSMTTest1/master/data/fsmt_sites.csv",
+		url : "https://github.com/FSMTTest1/blob/master/data/fsmt_sites.csv",
 		
 		//Latitude field
 		lat : "coordinates_latitude",
