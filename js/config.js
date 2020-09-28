@@ -1,7 +1,7 @@
 var config = {
 		
 		//URL of the CSV
-		url : "https://github.com/FSMTTest1/raw/master/data/fsmt_sites.csv",
+		url : "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/addcb04c-da5a-4827-9a28-ede965204118/download/fsmt_sites.csv",
 		
 		//Latitude field
 		lat : "coordinates_latitude",
