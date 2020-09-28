@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	$('#left_of_map').hide();
 	$('#analysis').hide();
 
-	var u = "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/5f6f7843-9e2d-447d-a8c7-aaac279e90a2/download/dcccm-clustercccm-cluster-reporting-toolsfsmt-may-2019fsmt-master-1fsmt-masterdatafsmt_sites.csv";
+	var u = "https://ckanviz.swige.unhcr.org/dataset/d4faa190-44ba-410f-bb58-b575513a14b2/resource/5f6f7843-9e2d-447d-a8c7-aaac279e90a2/download/fsmt_sites.csv";
 	var map, loc, name;
 	d3.csv(u, function(data) {
 		d3.csv("data/fields.csv", function(fields) {
@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 			var esri_satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: '&copy; <a href="http://www.esri.com/">Esri</a>, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community', maxZoom: 18});
 			var esri_lightGrey = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { attribution: '&copy; <a href="http://www.esri.com/">Esri</a>,  HERE, DeLorme, MapmyIndia, © OpenStreetMap contributors, and the GIS user community ',maxZoom: 18});
 			var esri_street = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {attribution: '&copy; <a href="http://www.esri.com/">Esri</a>', maxZoom: 18});
-			//esri_street.addTo(map);
+			esri_street.addTo(map);
 
 			// adding markers from CSV to map + to search fonction
 			var csv_markers = new L.featureGroup().addTo(map);
