@@ -94,7 +94,7 @@ var config = {
 		
 		
 		//Charts
-					
+		charts : [			
 			// age_pyramid
 			
 			{
