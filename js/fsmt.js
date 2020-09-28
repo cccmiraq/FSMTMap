@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	$('#left_of_map').hide();
 	$('#analysis').hide();
 
-	var u = "https://github.com/cccmiraq/FSMTTest1/master/data/fsmt_sites.csv";
+	var u = "https://github.com/FSMTTest1/blob/master/data/fsmt_sites.csv";
 	var map, loc, name;
 	d3.csv(u, function(data) {
 		d3.csv("data/fields.csv", function(fields) {
