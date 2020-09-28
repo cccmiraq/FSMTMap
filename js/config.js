@@ -94,76 +94,7 @@ var config = {
 		
 		
 		//Charts
-		//charts : [
-			// Vulnerable type
-			//{
-				// name: "vulnerable_type",
-				//height: "200",
-				// category: "vulnerable",
-				//config: {
-					//type: "pie",
-					//data:{
-						//datasets:[
-							//{
-//data:[],
-								//backgroundColor: []
-							//}
-						//],
-						//labels:[]
-					//},
-					//options: {
-						//title:{
-							//display:true,
-							//text:"Vulnerable population"
-						//},
-						//responsive: true,
-						//legend:{
-							//position:'bottom',
-							//labels: {
-								//padding:4,
-								//boxWidth:10
-							//}
-						//}
-					//}
-				//}	
-			//},
-			
-			// Shelter type
-			
-			//keep only the 4 biggest + others
-			
-			// {
-				// name: "shelter_type",
-				// height: "150",
-				// category: "shelter",
-				// config: {
-					// type: "pie",
-					// data:{
-						// datasets:[
-							// {
-								// data:[],
-								// backgroundColor: []
-							// }
-						// ],
-						// labels:[]
-					// },
-					// options: {
-						// title:{
-							// display:true,
-							// text:"Shelters"
-						// },
-						// responsive: true,
-						// legend:{
-							// position:'bottom',
-							// labels: {
-								// padding:4,
-								// boxWidth:10
-							// }
-						// }
-					// }
-				// }	
-			// },
-			
+					
 			// age_pyramid
 			
 			{
