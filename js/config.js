@@ -49,11 +49,11 @@ var config = {
 				alias : "Demographics",
 				icon : "activity_leadership_60px_bluebox"
 			},
-			{
-				name : "vulnerable",
-				alias : "Vulnerable population",
-				icon : "people_elderly_60px_bluebox"
-			},
+			//{
+				//name : "vulnerable",
+				//alias : "Vulnerable population",
+				//icon : "people_elderly_60px_bluebox"
+			//},
 			{
 				name : "nfi",
 				alias : "Non-food items",
