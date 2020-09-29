@@ -354,7 +354,7 @@ jQuery(document).ready(function() {
 					$('#map').css('display','block');
 					//L.circleMarker(loc, {radius: 15, color: 'blue'}).addTo(map);
 					//var mapWidthInPDF = 120; // size of map on paper (or set height but not both)
-					var mapHeightInPDF = 40 ; // size of map on paper (or set height but not both)
+					var mapHeightInPDF = 60 ; // size of map on paper (or set height but not both)
 					var mapPosXInPDF = ((210-w*containerScale)/2)+((w*containerScale)/3)+10; // pdf unit, mm
 					var mapPosYInPDF = 20; // pdf unit, mm
 						
@@ -363,8 +363,8 @@ jQuery(document).ready(function() {
 					if (typeof mapWidthInPDF != 'undefined') {
 					  scale = mapWidthInPDF/mapSize.x;
 					} else if (mapHeightInPDF) {
-					  //scale = mapHeightInPDF/mapSize.y;
-					scale = mapHeightInPDF/450;
+					  scale = mapHeightInPDF/mapSize.y;
+					//scale = mapHeightInPDF/450;
 					}
 					console.log(scale)
 					var date = new Date();
