@@ -364,7 +364,7 @@ jQuery(document).ready(function() {
 					  scale = mapWidthInPDF/mapSize.x;
 					} else if (mapHeightInPDF) {
 					  //scale = mapHeightInPDF/mapSize.y;
-					scale = mapHeightInPDF/550;
+					scale = mapHeightInPDF/450;
 					}
 					console.log(scale)
 					var date = new Date();
