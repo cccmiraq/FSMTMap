@@ -44,11 +44,6 @@ var config = {
 				icon : "wash_sanitation_60px_bluebox"
 			},
 			{
-				name : "wash",
-				alias : "Water, sanitation and hygiene",
-				icon : "wash_sanitation_60px_bluebox"
-			},
-			{
 				name : "protection",
 				alias : "Protection",
 				icon : "cluster_protection_60px_bluebox"
