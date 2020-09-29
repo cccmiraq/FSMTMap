@@ -359,17 +359,19 @@ jQuery(document).ready(function() {
 					var mapPosYInPDF = 20; // pdf unit, mm
 						
 					var mapSize = mymap.getSize();
-					var scale = 1;	
+					/*var scale = 1;	
 					if (typeof mapWidthInPDF != 'undefined') {
 					  scale = mapWidthInPDF/mapSize.x;
 					} else if (mapHeightInPDF) {
 					  scale = mapHeightInPDF/mapSize.y;
-					}
-					console.log(scale)
+					}*/
+					//console.log(scale)
+					console.log(containerScale)
 					var date = new Date();
 					var today = date.getFullYear() + "_" + (date.getMonth()+1) + "_" + date.getDate();
 					L.getImage(mymap, function(image) {								
-						pdf.addImage(image, 'jpg', mapPosXInPDF, mapPosYInPDF, mapSize.x*scale, mapSize.y*scale);
+						//pdf.addImage(image, 'jpg', mapPosXInPDF, mapPosYInPDF, mapSize.x*scale, mapSize.y*scale);
+						pdf.addImage(image, 'jpg', mapPosXInPDF, mapPosYInPDF, mapSize.x*containerScale, mapSize.y*containerScale);
 						pdf.save(name+"_"+today +'.pdf');
 						swal({
 							  title: "Export complete ! ",
