@@ -44,14 +44,14 @@ var config = {
 				icon : "wash_sanitation_60px_bluebox"
 			},
 			{
-				name : "protection",
-				alias : "Protection",
-				icon : "cluster_protection_60px_bluebox"
-			},
-			{
 				name : "shelter",
 				alias : "Shelter",
 				icon : "cluster_shelter_60px_bluebox"
+			},
+			{
+				name : "protection",
+				alias : "Protection",
+				icon : "cluster_protection_60px_bluebox"
 			},
 			{
 				name : "health",
