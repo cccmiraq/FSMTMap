@@ -1,4 +1,3 @@
-﻿
 jQuery(document).ready(function() {
 	$('.typeahead').hide();
 	$('#left_of_map').hide();
@@ -388,6 +387,4 @@ jQuery(document).ready(function() {
 				}
 			}
 
-});	
-	
-
+});
