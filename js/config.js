@@ -50,6 +50,16 @@ var config = {
 				icon : "wash_sanitation_60px_bluebox"
 			},
 			{
+				name : "shelter",
+				alias : "Shelter",
+				icon : "cluster_shelter_60px_bluebox"
+			},
+			{
+				name : "health",
+				alias : "Health",
+				icon : "cluster_health_60px_bluebox"
+			},
+			{
 				name : "food_security",
 				alias : "Food security",
 				icon : "food_NFI_food_60px_bluebox"
@@ -63,16 +73,6 @@ var config = {
 				name : "nfi",
 				alias : "Non-food items",
 				icon : "food_NFI_nonfood_item_60px_bluebox"
-			},
-			{
-				name : "shelter",
-				alias : "Shelter",
-				icon : "cluster_shelter_60px_bluebox"
-			},
-			{
-				name : "health",
-				alias : "Health",
-				icon : "cluster_health_60px_bluebox"
 			},
 			{
 				name : "livelihood",
