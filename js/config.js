@@ -35,6 +35,16 @@ var config = {
 				icon : "cluster_CCCM_60px_bluebox"
 			},
 			{
+				name : "demographics",
+				alias : "Demographics",
+				icon : "activity_leadership_60px_bluebox"
+			},
+			{
+				name : "protection",
+				alias : "Protection",
+				icon : "cluster_protection_60px_bluebox"
+			},
+			{
 				name : "wash",
 				alias : "Water, sanitation and hygiene",
 				icon : "wash_sanitation_60px_bluebox"
@@ -44,12 +54,7 @@ var config = {
 				alias : "Food security",
 				icon : "food_NFI_food_60px_bluebox"
 			},
-			{
-				name : "demographics",
-				alias : "Demographics",
-				icon : "activity_leadership_60px_bluebox"
-			},
-			//{
+						//{
 				//name : "vulnerable",
 				//alias : "Vulnerable population",
 				//icon : "people_elderly_60px_bluebox"
@@ -78,11 +83,6 @@ var config = {
 				name : "education",
 				alias : "Education",
 				icon : "activity_learning_60px_bluebox"
-			},
-			{
-				name : "protection",
-				alias : "Protection",
-				icon : "cluster_protection_60px_bluebox"
 			},
 			{
 				name : "who_what",
