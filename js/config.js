@@ -76,7 +76,7 @@ var config = {
 			},
 			{
 				name : "livelihood",
-				alias : "Livelihood and communication",
+				alias : "Livelihood",
 				icon : "activity_public_information_60px_bluebox"
 			},
 			{
