@@ -367,6 +367,7 @@ jQuery(document).ready(function() {
 					}*/
 					//console.log(scale)
 					console.log(containerScale)
+
 					var date = new Date();
 					var today = date.getFullYear() + "_" + (date.getMonth()+1) + "_" + date.getDate();
 					L.getImage(mymap, function(image) {								
