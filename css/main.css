@@ -3,12 +3,12 @@
             margin: 0;
         }
         html, body, #map {
-            height: 420px;
+            height: 450px;
             font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
         }
 		#map{
-			margin-top:240px !important;
-			height:420px;
+			margin-top:200px !important;
+			height:450px;
 		}
         .lorem {
             font-style: italic;
