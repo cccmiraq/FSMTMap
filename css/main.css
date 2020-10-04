@@ -3,7 +3,7 @@
             margin: 0;
         }
         html, body, #map {
-            height: 450px;
+            height: 420px;
             font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
         }
 		#map{
