@@ -105,7 +105,7 @@ jQuery(document).ready(function() {
 				below_map.innerHTML = "";
 				
 				//adding name, coordinates and last update
-				$('#left_of_map').append('<h3>'+h[config.name]+'<br><small>Last Update: '+h[config.last_update]+'</small></h3><br><button id="icon-print" button style="height:20px;width:20px">Export PDF</button>');
+				$('#left_of_map').append('<h3>'+h[config.name]+'<br><small>Last Update: '+h[config.last_update]+'</small></h3><br><button id="icon-print" button style="height:50px;width:50px">Export PDF</button>');
 
 				
 				//recreating divs
