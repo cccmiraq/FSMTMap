@@ -38,7 +38,8 @@ var config = {
 				name : "demographics",
 				alias : "Demographics",
 				icon : "activity_leadership_60px_bluebox"
-			},{
+			},
+			{
 				name : "wash",
 				alias : "Water, sanitation and hygiene",
 				icon : "wash_sanitation_60px_bluebox"
@@ -72,7 +73,7 @@ var config = {
 				name : "who_what",
 				alias : "Who is doing what ?",
 				icon : "activity_partnership_60px_bluebox"
-			}
+			},
 			{
 				name : "food_security",
 				alias : "Food security",
