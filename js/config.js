@@ -49,6 +49,16 @@ var config = {
 				icon : "cluster_shelter_60px_bluebox"
 			},
 			{
+				name : "protection",
+				alias : "Protection",
+				icon : "cluster_protection_60px_bluebox"
+			},
+			{
+				name : "education",
+				alias : "Education",
+				icon : "activity_learning_60px_bluebox"
+			},
+			{
 				name : "nfi",
 				alias : "Non-food items",
 				icon : "food_NFI_nonfood_item_60px_bluebox"
@@ -58,6 +68,11 @@ var config = {
 				alias : "Health",
 				icon : "cluster_health_60px_bluebox"
 			},
+			{
+				name : "who_what",
+				alias : "Who is doing what ?",
+				icon : "activity_partnership_60px_bluebox"
+			}
 			{
 				name : "food_security",
 				alias : "Food security",
@@ -69,25 +84,11 @@ var config = {
 				//icon : "people_elderly_60px_bluebox"
 			//},
 			{
-				name : "protection",
-				alias : "Protection",
-				icon : "cluster_protection_60px_bluebox"
-			},
-			{
 				name : "livelihood",
 				alias : "Livelihood",
 				icon : "activity_public_information_60px_bluebox"
 			},
-			{
-				name : "education",
-				alias : "Education",
-				icon : "activity_learning_60px_bluebox"
-			},
-			{
-				name : "who_what",
-				alias : "Who is doing what ?",
-				icon : "activity_partnership_60px_bluebox"
-			}
+			
 			
 		],
 		
